@@ -1,0 +1,40 @@
+h1{
+    background-color: aqua;
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+    
+    
+    background-color: aqua;
+
+}
+.item{
+    background-color: aqua;
+}
+img{
+    width:300px;
+    height:300px;
+}
+.navbar{
+    background-color: aqua;
+     border-radius: 10px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 13px 113px;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+}
+.navbar li a:hover{
+    color: red;
+   
+}

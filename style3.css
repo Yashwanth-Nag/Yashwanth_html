@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(0, 213, 255);
+    font-size: 14px
+}
+  .container{
+    width:80%;
+    margin: 50px auto;
+  }
+  .contact-box{
+    background-color: aliceblue;
+    display: flex;
+  }
+  .contact-left{
+    flex-basis:60%;
+    padding: 40px 60px;
+  }
+  .contact-right{
+    flex-basis:40%;
+    padding: 40px 40px;
+    background-color: blue;
+    color: azure;
+  }
+  h1{
+    margin-bottom: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+  }
+  .container p{
+    margin-bottom: 30px;
+    font-family: cursive;
+  }
+  .input-row{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .input-row .input-group{
+    flex-basis: 40%;
+  }
+  input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(119, 115, 115);
+    outline: none;
+    padding-bottom: 5px;
+  }
+  textarea{
+    width: 100%;
+    border: 1px solid rgb(116, 113, 113);
+    outline: none;
+    padding:10px;
+  }
+ button{
+    
+    background-color: blue;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: white;
+    height: 36px;
+    border-radius: 30px;
+    margin-top: 10px;
+    box-shadow: 0px 5px 15px 0px rgb(87, 85, 85);
+
+
+
+ }
+ .contact-left h3{
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+ }
+ .contact-right h3{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+ }
+ tr td:first-child{
+    padding-right: 25px;;
+ }
+ tr td{
+    padding-top: 10px;
+ }
+ .navbar{
+  background-color: aqua;
+   border-radius: 10px;
+}
+.navbar ul{
+  overflow: auto;
+}
+.navbar li{
+  float: left;
+  list-style: none;
+  margin: 13px 113px;
+}
+.navbar li a{
+  padding: 3px 3px;
+  text-decoration: none;
+}
+.navbar li a:hover{
+  color: red;
+ 
+}
